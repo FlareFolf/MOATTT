@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MOA TTT test</title>
+
+<script type="text/javascript">
+  var imageUrls = [
+       "https://i.imgur.com/W16swBy.png"
+     , "https://i.imgur.com/QYYACkS.png"
+     , "https://i.imgur.com/wnEXvfA.jpg"
+     , "https://i.imgur.com/rdR8u5X.png"
+     , "https://i.imgur.com/mRHsIsc.png"
+     , "https://i.imgur.com/JskTXSh.png"
+  ];
+ var imageLinks = [
+       "https://discord.com/invite/hDDhPUGgyd"
+      , "https://discord.com/invite/SPymCu8fsK"
+       , "https://discord.com/invite/zBrXxGsnbp"
+      , "https://discord.com/invite/SPymCu8fsK"
+      , "https://discord.com/invite/zBrXxGsnbp"
+     , "https://discord.com/invite/hDDhPUGgyd"    
+  ];
+
+  function getImageHtmlCode() {
+    var dataIndex = Math.floor(Math.random() * imageUrls.length);
+    var img = '<a href=\"' + imageLinks[dataIndex] + '"><img src="';        
+    img += imageUrls[dataIndex];
+    img += '\" alt=\"https://discord.com/invite/hDDhPUGgyd\"/></a>';
+    return img;
+  }
+</script>
+<style type="text/css">
+            body {
+                margin:0px;
+                padding:0px;
+                background-color:#000000;
+            }
+			img {
+			position:fixed;
+			top: 0px;
+			left: 0px;
+			max-width:100%; 
+			max-height:100%;
+			}
+</style>
+</head>
+<body bgcolor="white">
+
+<script type="text/javascript">
+  document.write(getImageHtmlCode());
+</script>
+<img src="https://i.imgur.com/sWfWWw4.png" alt="" /> <!--art-->
+<img src="https://i.imgur.com/AsrVSF1.png" alt="" /> <!--logo-->
+</body>
+</html>
