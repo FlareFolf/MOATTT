@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta lang="en">
+        <title>The ministry</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <style>
+            html {
+            background: #e6e9e9;
+            background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);
+            -webkit-font-smoothing: antialiased;
+                    }
+
+            body {
+                background: grey;
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+                color: lightgrey;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+                margin: 0 auto;
+                max-width: 800px;
+                padding: 2em 2em 4em;
+            }
+
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+              position: -webkit-sticky; /* Safari */
+              position: sticky;
+              top: 0;
+            }
+
+            #spacer{
+                color:#808080;
+            }
+            li {
+              float: left;
+            }
+
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            li a:hover {
+              background-color: #111;
+            }
+
+
+            h1, h2, h3, h4, h5, h6 {
+                color: white;
+                font-weight: 600;
+                line-height: 1.3;
+                text-align: center;
+            }
+
+            h2 {
+                margin-top: 1.3em;
+                border-bottom-style: solid;
+                border-bottom: 30px;
+                border-bottom-color: aqua;
+            }
+
+
+            #menu{
+                height:50px;
+            }
+
+            b, strong {
+                color: white;
+                font-weight: 600;
+            }
+
+            .roleimg{
+                height: 128px;
+                margin-left:7px;
+                margin-right:7px;
+            }
+            .oddrole{
+                margin-right:16%;
+            }
+            .evenrole{
+                margin-left:16%;
+            }
+
+
+        </style>
+    </head>
+    <body>
+         <ul>
+            <li><a class="active" href="https://discord.gg/SPymCu8fsK">Discord</a></li>
+            <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2833853319">Addon pack</a></li>
+            <li><a href="#rules">Rules</a></li>
+            <li><a href="#keybinds">Keybinds</a></li>
+            <li><a href="#roles">Roles</a></li>
+             <li><a href="#changelog">Changelog</a></li>
+        </ul>
+        <h1>Welcome to the Yogs TTT</h1>
+        <h3>Hosted by The ministry</h3>
+        <p>
+            We hope you'll have a great time while playing on this server. Please make sure to contact us if there is any issue or suggestion. There are dedicated channels for this in our discord. we are also available to contact directly on discord if there is an urgent problem or if somebody is breaking rules and preventing others from having a good time. Contact Thistle#1992 on discord if this is the case. Listed below are the rules and the list of roles currently in use. The server is currently on version 1.0 so in the future, there will also be a changelog visible on this page. Have a great time!
+        </p>
+        
+            
+        
+        <div>
+            <h2 id="rules">Rules</h2>
+            <table>
+                <tr>
+                    <td><b>RDM</b></td>
+                    <td><b>Ghosting</b></td>
+                    <td><b>Prop Abuse</b></td>
+                </tr>
+                <tr>
+                    <td>RDM of any kind is against the rules. You are not allowed to kill or KOS on suspicion and you can only retaliate damage if they have dealt 10 or more damage to you. Killing your own team-mates is also considered RDM.</td>
+                    <td>  Exchanging information when you <br/>are dead to other players or your friends is against the rules. Any kind of information than can give people an advantage when you are not allowed can be reported </td>
+                    <td>This includes killing, flying, moving and blocking with props. This against the rules no matter what your role is.</td>
+                </tr>
+                <tr>
+                    <td><b>Exploiting</b></td>
+                    <td><b>LTAP</b></td>
+                    <td><b>Camping and Delaying</b></td>
+                </tr>
+                <tr>
+                    <td>  Do not exploit in any form whether it is game mechanics or to bypass certain systems. This can include duping points, skipping slays and breaking maps</td>
+                    <td>'Leaving to avoid punishment' will grant you a larger punishment than the original offense, Please wait for your report to be dealt with and once you    have received your punishment, you can leave</td>
+                    <td>Do not camp or delay the rounds. This can be an inconvenience for other plays and admins may use commands to stop you camping or delaying</td>
+                </tr>
+                <tr>
+                    <td><b>KOSing</b></td>
+                    <td><b>False Role Gameplay / Cross-Teaming</b></td>
+                    <td><b>Hacking</b></td>
+                </tr>
+                <tr>
+                    <td>Do not KOS if you are a traitor role, this includes Jackal, Sidekick, Infected, Jester and other roles. However, you are allowed to call suspicion. Equally, do not KOS an area or skin.</td>
+                    <td>Please play by the roles description. This means that you are not allowed to team or break your roles boundaries</td>
+                    <td>Any form of hacking or external program that modify or give you an advantage are forbidden</td>
+                </tr>
+                <tr>
+                    <td><b>Pushing &#38; AFK</b></td>
+                    <td><b>Detective Enforcement</b></td>
+                    <td><b>Spam</b></td>
+                </tr>
+                <tr>
+                    <td>Pushing into any killzone, inescapable or unsurvivable area is not allowed. You are also not allowed to push AFK players</td>
+                    <td>Only the detective can force you to be tested or call KOS if you are refusing to not be tested. Any other role can not force or KOS for this</td>
+                    <td>Do not spam messages in text chat, spam your voice chat, or use voice changers/soundboards</td>
+                </tr>
+            </table>
+
+            <p>
+                <i>Note that some of these rules are fluid and will on occasion be broken wether on purpose or accident and will be enforced on a case by case basis. if rule breaking hinders people from having a good time, they will always be enforced and rules regarding hacking and avoiding punishment will always be enforced as well</i>
+            </p>
+        </div>
+        <div>
+            <h2 id="keybinds">Keybindings</h2>
+            <h5 align="center">Some of these can be changed in the bindings menu under F1</h5>
+            <table>
+                <tr>
+                    <td><b>TTT2 menu:</b> F1</td>
+                    <td><b>Buy menu:</b> C</td>
+                    <td><b>Pointshop:</b> F3</td>
+                    <td><b>Skin shop:</b> F4</td>
+                </tr>
+                
+                <tr>
+                    <td><b>ttt emotes:</b> L</td>
+                    <td><b>Dance menu:</b> F6</td>
+                    <td><b>Global pointer:</b> K</td>
+                    <td><b>Team pointer:</b>b> L</td>
+                </tr>
+                <tr>
+                    <td id="spacer">i needed a spacer</td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center"><b>To open the battlepass menu, type battlepass in your console.<br/>you can bind this to a key by typing "bind [key] battlepass" and replacing [key] with the key you want to bind it to</b></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h2 id="roles">Roles</h2>
+            <h2>Innocent roles</h2>
+            <div>
+                <img alt="innocent" align ="left" class="roleimg" src="https://i.imgur.com/sJpJOoz.png">
+                <h4 align ="center" class="oddrole">Innocent</h4>
+                <p>
+                The regular good guys. try and find the traitors and any other evil roles lurking around. your goal is to kill all the bad roles and leave only innocents and neutrals standing.
+            </p>
+            </div>
+            <div>
+                <img alt="Spectre" class="roleimg" align="right" src="https://i.imgur.com/XkOMMuR.png">
+                <h4 align ="center" class="evenrole">Spectre</h4>
+                <p>
+                The spectre is an innocent role that posesses the person that kills them. the person that kills them will emit black smoke for as long as they live afterwards so everybody will know what they did. once they are killed, the spectre will respawn where their body is. if their body was destroyed, they will respawn on map spawn
+            </p>
+            </div>
+            <div>
+                <img alt="Survivalist" align ="left" class="roleimg" src="https://i.imgur.com/WZpCjIT.png">
+                <h4 align ="center" class="oddrole">Survivalist</h4>
+                <p>
+                The survivalist is an innocent with a buy menu. you have the same goal as the innocents, but you just get some extra toys to help out with. be careful though as you may be mistaken for a traitor!
+            </p>
+            </div>
+            <div>
+                <img alt="Wrath" class="roleimg" align="right" src="https://i.imgur.com/imk3bOJ.png">
+                <h4 align ="center" class="evenrole">Wrath</h4>
+                <p>  
+                The wrath is a regular innocent and unaware that they are the wrath. The wrath turns into a traitor if they are killed by another innocent which is the only time anybody finds out they were the wrath. 
+            </p>
+            </div>
+            <div>
+                <img alt="Seance" align ="left" class="roleimg" src="https://i.imgur.com/VGwsJJj.png">
+                <h4 align ="center" class="oddrole">Seance</h4>
+                <p>
+                The seance is a role that can sense the dead. they can see the aproximate location of dead players in spectator mode. these show themselves as yellow orbs or a yellow glow around a prop if posessed. the location of these orbs is not fully accurate and only updates every 10 seconds. They can also see the amount of dead players which is updated every 30 seconds.
+            </p>
+            </div>
+            <h2>detective roles</h2>
+            <div>
+                <img alt="Detective" class="roleimg" align="right" src="https://i.imgur.com/50B0iCw.png">
+                <h4 align ="center" class="evenrole">Detective</h4>
+                <p>  
+                The detective is a leading role. They have a buy menu and the means to find out who killed a given dead body using their DNA scanner. it is very important to protect the detective if you're innocent, but if you're a traitor, they should be your first target as they can be a signifficant thorn in your side.
+            </p>
+            </div>
+            <div>
+                <img alt="Sherrif" class="roleimg" align="left" src="https://i.imgur.com/5ZMPdNu.png">
+                <h4 align ="center" class="oddrole">Sherrif</h4>
+                <p>  
+                The sherrif is a special kind of detective. they also have a buy menu and a DNA scanner and are visible to everybody, but they also have a deputy deagle which they can use to appoint a colleage. whoever they shoot with this will immediately become their deputy regardless of their team. if the sherrif is to die, the deputy will also die.
+            </p>
+            </div>
+            <div>
+                <img alt="Deputy" align ="right" class="roleimg" src="https://i.imgur.com/Hhkwpko.png">
+                <h4 align ="center" class="evenrole">Deputy</h4>
+                <p>
+                The deputy is a role that does not spawn on its own but that merely serves as a colleague to the sherrif. they are a confirmed innocent because they were personally appointed by the sherrif. if the sherrif dies, they die too.
+            </p>
+            </div>
+            <div>
+                <img alt="Link" class="roleimg" align="left" src="https://i.imgur.com/63rBq93.png">
+                <h4 align ="center" class="oddrole">Link</h4>
+                <p>  
+                Link is a regular detective with more health, armor and a master sword. they play the legend of zelda theme when they spawn in and look like link. nothing special otherwise
+            </p>
+            </div>
+            <h2><br/>Traitor roles</h2>
+            <div>
+                <img alt="Traitor" align ="right" class="roleimg" src="https://i.imgur.com/ix3XMde.png">
+                <h4 align ="center" class="evenrole">Traitor</h4>
+                <p>
+                The traitors are the bad guys. their goal is to be the last one standing with their teammates. they have a buy menu which contains lots of items to complete their mission. Try and covertly kill everyone without being found out. 
+            </p>
+            </div>
+            <div>
+                <img alt="Mesmerist" class="roleimg" align="left" src="https://i.imgur.com/l69Bc8g.png">
+                <h4 align ="center" class="oddrole">Mesmerist</h4>
+                <p>  
+                The mesmerist is a traitor without a buy menu, but with a defibrilator. They have the ability to revive a fallen player as a new part of their team. This person will spawn as a thrall regardless of their previous role. Be careful though as the defibrilator will make noise and alert other players to your actions
+            </p>
+            </div>
+            <div>
+                <img alt="Thrall" align ="right" class="roleimg" src="https://i.imgur.com/wXP3Omh.png">
+                <h4 align ="center" class="evenrole">Thrall</h4>
+                <p>
+                The thrall is a traitor role. the only way the thrall can spawn is if they are a fallen player that's revived by a mesmerist. in every other way, they are a regular traitor.
+            </p>
+            </div>
+            <div>
+                <img alt="Arsonist" class="roleimg" align="left" src="https://i.imgur.com/D5nOByC.png">
+                <h4 align ="center" class="oddrole">Arsonist</h4>
+                <p>  
+                The arsonist is a traitor role that spawns with a flamethrower and a flare gun. The flamethrower may be powerful, but the ammo is limited and cannot be replenished.
+            </p>
+            </div>
+            <h2><br/>Jester roles</h2>
+            <div>
+                <img alt="Jester" align ="right" class="roleimg" src="https://i.imgur.com/kWhmA1y.png">
+                <h4 align ="center" class="evenrole">Jester</h4>
+                <p>
+                The jester is a role that cannot do damage to anybody. they have to fool others into thinking they are evil to get killed. When the jester is killed, they win the round.
+            </p>
+            </div>
+            <div>
+                <img alt="Swapper" class="roleimg" align="left" src="https://i.imgur.com/Umpd4pf.png">
+                <h4 align ="center" class="oddrole">Swapper</h4>
+                <p>  
+                The swapper is very similar to the jester. they also cannot do any damage and they also need to try and get others to kill them. When the swapper is killed, they swap roles with the person that killed them. The person that killed them will now be the swapper and have to continue what the swapper was doing.
+            </p>
+            </div>
+            <div>
+                <img alt="Beggar" align ="right" class="roleimg" src="https://i.imgur.com/VY5nao2.png">
+                <h4 align ="center" class="evenrole">Beggar</h4>
+                <p>
+                The beggar is a role that cannot do damage to anybody. Their goal is to try and get an item from the buy of another special role that has it. this can be any role with a buy menu. When they receive an item from somebody's buy menu, they will join the team of that person.
+            </p>
+            </div>
+            <div>
+                <img alt="Clown" class="roleimg" align="left" src="https://i.imgur.com/FJ4pO3M.png">
+                <h4 align ="center" class="oddrole">Clown</h4>
+                <p>  
+                The clown is a jester type role. they cannot do any damage to anybody and must try to survive until only one team remains. when this is the case, the clown will become enraged and will have to kill the rest of the players and be the last one standing to win
+            </p>
+            </div>
+            <h2>Neutral roles</h2>
+            <div>
+                <img alt="Amnesiac" align ="right" class="roleimg" src="https://i.imgur.com/94DRzpz.png">
+                <h4 align ="center" class="evenrole">Amnesiac</h4>
+                <p>
+                The amnesiac is a neutral role that doesn't belong to any team. they cannot win in their current state, but when they check an unchecked body, they will assume the role of said body. this will also broadcast a message to all players saying the amnesiac remembered what role they were, so be careful because everyone who knows you were an amnesiac will know what role you now have.
+            </p>
+            </div>
+            <div>
+                <img alt="Drunk" class="roleimg" align="left" src="https://i.imgur.com/JNDv25Q.png">
+                <h4 align ="center" class="oddrole">Drunk</h4>
+                <p>  
+                The Drunk is a neutral role. When someone dies, the Drunk has a chance to "sober up," changing roles to the killed player.
+            </p>
+            </div>
+            <div>
+                <img alt="Kobold hoarder" align ="right" class="roleimg" src="https://i.imgur.com/BGBZNDO.png">
+                <h4 align ="center" class="evenrole">Kobold hoarder</h4>
+                <p>
+                The kobold hoarder is a special role that needs to collect as many guns as it can to win. It knows how many guns it needs and when that number is met, they win the round. they are a lot faster than normal players and also much smaller. The kobold hoarder also gets a special role and voice, so you can hear them from a distance.
+            </p>
+            </div>
+            <div>
+                <img alt="Loot goblin" class="roleimg" align="left" src="https://i.imgur.com/VJ9gXjh.png">
+                <h4 align ="center" class="oddrole">Loot goblin</h4>
+                <p>  
+                The loot goblin is a neutral role that cannot damage anybody. They win the round if anybody wins and lose if they get killed. At the start of the round everyone will hear a goblin laugh if there is a loot goblin present and get a message saying to kill the goblin. If they get killed they wil drop a random assortment of traitor items.
+            </p>
+            </div>
+            <div>
+                <img alt="Mimic" align ="right" class="roleimg" src="https://i.imgur.com/cOPPE5s.png">
+                <h4 align ="center" class="evenrole">Mimic</h4>
+                <p>
+                The mimic is a neutral role that can steal the role from someone else. They will press the use key (usually E) on someone and a few seconds later they will assume the role of whoever they pressed the use key on and the person they stole the role from will turn into an amnesiac. They will now play on the team of whoever they took the role from.
+            </p>
+            </div>
+            <div>
+                <img alt="Sidekick" class="roleimg" align="left" src="https://i.imgur.com/1yRfibP.png">
+                <h4 align ="center" class="oddrole">Sidekick</h4>
+                <p>  
+                The sidekick is a role that is appointed by the use of a sidekick deagle by roles like the Jackal. If a player is appointed as a sidekick, they will now play on the team of the player that appointed them regardless of what role they were previously. If the player that appointed them dies, the sidekick will assume their role and usually get another sidekick deagle.
+            </p>
+            </div>
+            <h2>Bad roles with their own team</h2>
+            <div>
+                <img alt="Doppelganger" align ="right" class="roleimg" src="https://i.imgur.com/fomoJcF.png">
+                <h4 align ="center" class="evenrole">Doppelganger</h4>
+                <p>
+                The doppelganger is very similar to the mimic in that they steal a role from another player, turning them into an amnesiac. The only difference is that the doppelganger while taking the role from another player will remain on their own team and will have to pretend to be on the team from whoever they stole the role from while trying to end up as the last person standing to win.
+            </p>
+            </div>
+            <div>
+                <img alt="Jackal" class="roleimg" align="left" src="https://i.imgur.com/97a2A2X.png">
+                <h4 align ="center" class="oddrole">Jackal</h4>
+                <p>  
+                The jackal is an evil role that can appoint a sidekick using the sidekick deagle. be careful though as other will hear this and know that a jackal is in play. The jackal has a buy menu just like the traitors and wins by being the last one standing. once the jackal dies, his sidekick becomes the new jackal and can appoint their own sidekick.
+            </p>
+            </div>
+            <div>
+                <img alt="Infected" align ="right" class="roleimg" src="https://i.imgur.com/I5gVoVS.png">
+                <h4 align ="center" class="evenrole">Infected</h4>
+                <p>
+                The infected is a role that has to infect everybody else. If you spawn as infected, you are known as the prime and are the only infected able to use a gun. if you get infected by somebody else, you will have to use your fists to infect more people by killing them. If the infected prime dies, all of his infected people will also die.
+            </p>
+            </div>
+            <div>
+                <img alt="Lunk" class="roleimg" align="left" src="https://i.imgur.com/squtrjZ.png">
+                <h4 align ="center" class="oddrole">Lunk</h4>
+                <p>  
+                Lunk is a terrifying being of pure strength and rage. There is no way to kill lunk. Lunk will have to try to be the last one standing as everybody runs away. Teams don't matter if lunk is around. Work together to get to the end of the timer while dodging lunk. May god help us all.
+            </p>
+            </div>
+            <div>
+                <img alt="Suicide barrel" align ="right" class="roleimg" src="https://i.imgur.com/4Zm3Psj.png">
+                <h4 align ="center" class="evenrole">Suicide barrel</h4>
+                <p>
+                The suicide barrel is litterally that. a barrel. This barrel will have to run and try to blow up other people. everybody blown up by the suicide barrel will in turn also become a suicide barrel until everybody is one. each time you blow yourself up, it takes longer to respawn so try and make each explosion count.
+            </div>
+            <div>
+                <img alt="Serial killer" class="roleimg" align="left" src="https://i.imgur.com/txgW9Z1.png">
+                <h4 align ="center" class="oddrole">Serial killer</h4>
+                <p>  
+                The serial killer is a role that has to try and covertly kill everybody in their path. They spawn with the tracker item equiped which means they can see everybody through the wall. They are always on their own and unable to get more teammates. They have to be the last one standing to win
+            </p>
+            </div>
+        </div>
+        <div>
+            <h2 id="changelog">Changelog</h2>
+            <h2>Coming soon</h2>
+         </div>
+    </body>
+</html>
+
